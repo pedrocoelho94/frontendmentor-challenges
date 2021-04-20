@@ -3,7 +3,7 @@
 
 Este é um repositório em que estarei colocando os desafios feitos do site frontendmentor.io
 
- ## siteFotografo  
+ ## FAQ Accordion Card
 
  https://faq-accordion-card-two-sigma.vercel.app/
 
