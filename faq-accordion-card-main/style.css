@@ -34,7 +34,7 @@ body{
     padding: 40px 40px 40px 0;
 }
 
-.esquerdo img:nth-child(1){
+.esquerdo img:nth-child(3){
     width: 105%;
     position: relative;
     right: 65px; 
@@ -42,7 +42,7 @@ body{
 }
 
 
-.esquerdo img:nth-child(2){
+.esquerdo img:nth-child(4){
     width: 180%;
     position: absolute;
     bottom: -70px;
@@ -121,11 +121,16 @@ hr{
 
 
   @media (max-width: 900px) {
+    body{
+        height: 100vh;
+        margin-top: 30px;
+    }
     .box{
         flex-direction: column;
         width: 500px;
         max-width: 80%;
         position: relative;
+        margin-top: 100px;
     }
     .d-none{
         display: none;
@@ -141,35 +146,37 @@ hr{
         padding: 15px;
     }
 
-
-    .esquerdo-mobile{
-        position: relative;
-        margin-bottom: 15px;
+    .esquerdo{
+        width: 100%;
+        padding: 0;
+        overflow: visible;
     }
 
-    .esquerdo-mobile img{
-        width: 350px;
-        max-width: 100%;
-    }
-
-    .d-mobile{
+    .esquerdo .d-mobile {
         display: block;
-        margin: 0 auto;
+        width: 300px;
+        max-width: 100%;
+        margin: 0 auto;    
     }
 
-    .img-1{
-        margin-top: -150px;
+    .d-mobile.img-1{
+        margin-top: -120px;
     }
-    .img-2{
+    .d-mobile.img-2{
         margin-top: -100px;
     }
 
   }
 
-  @media (max-width: 468px){
-    .esquerdo-mobile img{
-        width: 200px;
+  @media (max-width: 400px){
+    body{
+        margin-top: 0;
+    }
+    
+    .esquerdo .d-mobile{
+        width: 130px;
         max-width: 100%;
+        margin-bottom: 5px;
     }
 
     .direito{
@@ -177,10 +184,10 @@ hr{
         height: 100%;
     }
 
-    .img-1{
-        margin-top: -100px;
+    .d-mobile.img-1{
+        margin-top: -50px;
     }
-    .img-2{
-        margin-top: -70px;
+    .d-mobile.img-2{
+        margin-top: -50px;
     }
   }
