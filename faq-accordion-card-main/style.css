@@ -12,12 +12,11 @@ body{
     background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
     width: 100vw;
     height: 100vh;
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'Kumbh Sans', sans-serif;
 }
 
 .box{
-    margin-top: 200px;
     background-color: #fff;
     border-radius: 15px;
     max-width: 90%;
@@ -125,7 +124,6 @@ hr{
         flex-direction: column;
         width: 500px;
         max-width: 80%;
-        margin-top: 150px;
         position: relative;
     }
     .d-none{
