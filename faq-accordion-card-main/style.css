@@ -19,7 +19,6 @@ body{
 .box{
     background-color: #fff;
     border-radius: 15px;
-    padding: 30px 30px 30px 0;
     max-width: 90%;
     width: 800px;
     display: flex;
@@ -61,8 +60,9 @@ body{
 
 .direito{
     width: 50%;
-    height: 400px;
+    height: 410px;
     padding: 40px 40px 40px 0;
+    overflow-y: auto;
 }
 
 .direito h3{
