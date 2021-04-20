@@ -7,7 +7,7 @@ Este é um repositório em que estarei colocando os desafios feitos do site fron
 
  https://faq-accordion-card-two-sigma.vercel.app/
 
- ![Preview do site](./faq-accordion-card-main/exemplo.jpg)
+ ![Preview do site](./faq-accordion-card-main/exemplo.JPG)
 
  O que foi utilizado:
 
